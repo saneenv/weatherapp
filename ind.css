@@ -1,0 +1,69 @@
+
+    #img1,#img2{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url(./pexels-lumn-1028600.jpg);
+        }
+    
+        .search{
+        margin-bottom: auto;
+        margin-top: auto;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 40px;
+        padding: 10px;
+        }
+    
+        .search_input{
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 0;
+        margin-top:5px;
+        caret-color:transparent;
+        line-height: 40px;
+        transition: width 0.4s linear;
+        }
+    
+        .search .search_input{
+        padding: 0 10px;
+        color: black;
+        width: 550px;
+        caret-color:red;
+        transition: width 0.4s linear;
+        }
+        
+        .search:hover > .search_icon{
+        background: red;
+        color: #fff;
+        }
+    
+        .search_icon{
+        height: 50px;
+        width: 50px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
+        background-color:black;
+        }
+        
+    a:link{
+        text-decoration:none;
+    }    
+    #head1{
+          margin-left: 100px;
+          position: absolute;
+      
+    }
+    #headid {
+        color: rgb(7, 1, 1);
+        font-size: 50px;
+        margin-top: 87px;
+        margin-left: 375px;
+    }
